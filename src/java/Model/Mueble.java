@@ -9,7 +9,7 @@ import java.util.Date;
 
 /**
  *
- * @author USUARIO
+ * @author JUANCHITO
  */
 public class Mueble {
 
