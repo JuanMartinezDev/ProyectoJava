@@ -7,7 +7,7 @@ package Model;
 
 /**
  *
- * @author USUARIO
+ * @author JUAN M Y JUAN JOSE
  */
 public class ClaseMadera {
     private int id;
