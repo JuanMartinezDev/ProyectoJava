@@ -9,11 +9,15 @@
     </head>
 
     <body>
-        <p>Hello! This is the default welcome page for a Spring Web MVC project.</p>
-        <p><i>To display a different welcome page for this project, modify</i>
-            <tt>index.jsp</tt> <i>, or create your own welcome page then change
-                the redirection in</i> <tt>redirect.jsp</tt> <i>to point to the new
-                welcome page and also update the welcome-file setting in</i>
-            <tt>web.xml</tt>.</p>
+        <ul class="nav navbar-nav">
+            <li class="active"><a href="#">INICIO <span class="sr-only"></span></a></li>
+            <li><a href="indexCliente.htm?">Clientes</a></li>
+            <li><a href="indexMueble.htm?">Muebles</a></li>
+            <li><a href="indexEmpleado.htm?">Empleados</a></li>
+            <li><a href="indexClaseMadera.htm?">Clase de Madera</a></li>
+            <li><a href="indexTipoMueble.htm?">Tipo de Mueble</a></li>
+            
+            
+        </ul>
     </body>
 </html>
