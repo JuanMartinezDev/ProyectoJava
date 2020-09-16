@@ -21,6 +21,10 @@
             <props>
                 <prop key="index.htm">HomeController</prop>
                 <prop key="indexCliente.htm">ClienteController</prop>
+                <prop key="agregarCliente.htm">ClienteController</prop>
+                <prop key="editarCliente.htm">ClienteController</prop>
+                <prop key="deleteCliente.htm">ClienteController</prop>
+                
             </props>
         </property>
     </bean>

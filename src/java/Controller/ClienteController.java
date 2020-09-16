@@ -38,7 +38,7 @@ public class ClienteController {
         return mav;
     }
     
-    @RequestMapping(value="indexCliente.htm",method=RequestMethod.POST)
+    @RequestMapping(value="agregarCliente.htm",method=RequestMethod.POST)
     public ModelAndView Agregar(Clientes c){
         clienteBL.insertar(c);
         return new ModelAndView("redirect:indexCliente.htm");

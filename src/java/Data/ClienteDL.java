@@ -4,7 +4,6 @@
  * and open the template in the editor.
  */
 package Data;
-
 import Model.Clientes;
 import java.util.List;
 import org.springframework.jdbc.core.JdbcTemplate;
@@ -26,7 +25,7 @@ public class ClienteDL {
     }
     public void insertar (Clientes c){
         String sql="insert into clientes "
-                + "(nombre,apellidos,documento,direccion,telefono,email) values (?,?,?,?,?,?)";
+                + "(nombre,apellidos,documentos,direccion,telefono,email) values (?,?,?,?,?,?)";
         jdbctemplate.update(sql,c.getNombre(),c.getApellidos(),c.getDocumentos(),c.getDireccion(),c.getTelefono(),c.getEmail());
     }
     public List buscar(int id){
@@ -36,8 +35,8 @@ public class ClienteDL {
     }
     public void actualizar (Clientes c){
         String sql="update clientes set "
-                + "nombre=?,apellidos=?,documento=?,direccion=?,telefono=?,email=?";
-                jdbctemplate.update(sql,c.getNombre(),c.getApellidos(),c.getDocumentos(),c.getDireccion(),c.getTelefono(),c.getEmail());
+                + "nombre=?,apellidos=?,documentos=?,direccion=?,telefono=?,email=? where id=?";
+                jdbctemplate.update(sql,c.getNombre(),c.getApellidos(),c.getDocumentos(),c.getDireccion(),c.getTelefono(),c.getEmail(), c.getId());
     }
     
     public void eliminar (int id){

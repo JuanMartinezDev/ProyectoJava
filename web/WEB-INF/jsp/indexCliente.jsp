@@ -34,7 +34,7 @@
       <div class="container-fluid mt-3"> 
       <div class="card">
           <div class="card-header bg-dark">
-              <a href="agregarCiudad.htm" class="btn btn-success regDepto">Nuevo registro</a>
+              <a href="agregarCliente.htm" class="btn btn-success regDepto">Nuevo registro</a>
           </div>
       <div class="card-body">
           <table class="table table-hover">
@@ -54,7 +54,7 @@
                                 <tr>                               
                                     <td class="middle text-center">${cliente.Nombre}</td>
                                     <td class="middle text-center">${cliente.Apellidos}</td>
-                                    <td class="middle text-center">${cliente.Documento}</td>
+                                    <td class="middle text-center">${cliente.Documentos}</td>
                                     <td class="middle text-center">${cliente.Direccion}</td>
                                     <td class="middle text-center">${cliente.Telefono}</td>
                                     <td class="middle text-center">${cliente.Email}</td>
