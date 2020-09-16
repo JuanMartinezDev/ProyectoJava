@@ -11,7 +11,7 @@
     <!-- Bootstrap CSS -->
     <link href="bootstrap/bootstrap.css" rel="stylesheet" type="text/css"/>
 
-    <title>Java Proyecto</title>
+    <title>Taller de Muebles</title>
   </head>
   <body>
       
